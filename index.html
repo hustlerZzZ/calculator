@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/9e6b5b84ae.js"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script src="scripts/app.js" defer></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="calculator-heading">
+                <h2>Calculator</h2>
+                <div class="calculator-heading__item">
+                    <button
+                        class="calculator-heading__item__theme"
+                        id="changeTheme"
+                    >
+                        Change Theme
+                    </button>
+                </div>
+            </div>
+
+            <div class="calculator-display">
+                <h1 id="display">0</h1>
+            </div>
+
+            <div class="calculator-buttons">
+                <div class="calculator-buttons__row-1">
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button id="delBtn">Del</button>
+                </div>
+                <div class="calculator-buttons__row-2">
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button id="plusBtn">+</button>
+                </div>
+                <div class="calculator-buttons__row-3">
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button id="minusBtn">-</button>
+                </div>
+                <div class="calculator-buttons__row-4">
+                    <button id="decimalBtn">.</button>
+                    <button value="0">0</button>
+                    <button id="divideBtn">/</button>
+                    <button id="multiplyBtn">*</button>
+                </div>
+                <div class="calculator-buttons__row-5">
+                    <button id="resetBtn">RESET</button>
+                    <button id="equalBtn">=</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="copyright">Made with ❤️ by Prince.</h2>
+    </body>
+</html>
